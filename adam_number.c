@@ -1,14 +1,14 @@
 #include<stdio.h>
 int reverse(int a)
 {
-  int rem,sum=0;
+  int rev=0;
   while(a!=0)
   {
-    rem=a%10;
-    sum=sum+rem;
+    rev=rev*10;
+    rev=rev+a%10;
     a=a/10;
   }
-  return sum;
+  return rev;
 }
 int square(int a)
 {
