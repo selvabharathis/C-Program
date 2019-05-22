@@ -9,4 +9,4 @@ These program give you few logic tricks and optimized code as posible to the que
 As practising these problem you will get familiar with all the iteration and concepts of c.
 
 
-#########################################################  HAPPY LEARNING  ############################################################
+#############################################  HAPPY LEARNING  ######################################################
