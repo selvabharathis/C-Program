@@ -11,7 +11,7 @@ int main()
   }
   power = power / 10;
   printf("my power value%d\n",power);
-  while(num)
+  while(pow)
   {
     rem = num / power;
     printf("\n%d",rem);
