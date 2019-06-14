@@ -20,15 +20,15 @@ int main()
         if(i%2)                                 // we will put large value 
         {
           if(a[i] > a[j])
-            a[i] = a[i] + a[j] - (a[i] = a[j]); // doing swap without temporary variable
+            a[i] = a[i] + a[j] - (a[j] = a[i]); // doing swap without temporary variable
         }
         else                                    // we will put small value
         {
           if(a[i] < a[j])
-            s[i] = a[i] + a[j] - (a[i] = a[j]); // doing swap without temporary variable
+            a[i] = a[i] + a[j] - (a[j] = a[i]); // doing swap without temporary variable
         }
        }
-   printf("\n);
+   printf("\n");
    for(int i=0 ; i<n ; i++)
      printf("%d  ",a[i]);
    return 0;
